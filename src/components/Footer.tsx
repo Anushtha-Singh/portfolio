@@ -96,7 +96,7 @@ const Footer = () => {
                 </h3>
                 <p className="text-gray-300 leading-relaxed max-w-md">
                   Passionate full-stack developer crafting digital experiences with modern technologies. 
-                  Always learning, always building, always pushing the boundaries of what's possible.
+                  Always learning, always building, always pushing the boundaries of what&apos;s possible.
                 </p>
               </div>
 

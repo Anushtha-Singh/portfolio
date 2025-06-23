@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Code, Trophy, Star, GitBranch, Users } from 'lucide-react';
+import { Github, Code, Trophy, Star, GitBranch } from 'lucide-react';
 
 interface CodingProfile {
   platform: string;

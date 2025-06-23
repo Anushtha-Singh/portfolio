@@ -1,5 +1,5 @@
 import React from 'react';
-import { BookOpen, Code, Database, Brain, Shield, Cpu, Network, BarChart } from 'lucide-react';
+import { BookOpen, Code, Brain, Shield, Cpu, Network, BarChart } from 'lucide-react';
 
 interface Course {
   code: string;
@@ -263,7 +263,7 @@ const CourseWork = () => {
               <div className="w-16 h-16 bg-gradient-to-br from-yellow-500 to-orange-500 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Shield className="w-8 h-8 text-white" />
               </div>
-              <h4 className="text-xl font-bold text-white mb-2">Dean's List</h4>
+              <h4 className="text-xl font-bold text-white mb-2">Dean&apos;s List</h4>
               <p className="text-gray-400">Maintained 3.5+ GPA for 6 consecutive semesters</p>
             </div>
             <div className="text-center p-8 bg-white/5 backdrop-blur-lg rounded-2xl border border-white/10">

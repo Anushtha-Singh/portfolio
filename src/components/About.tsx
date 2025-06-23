@@ -72,12 +72,12 @@ const About = () => {
                 <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent"> Passion</span>
               </h3>
               <p className="text-gray-300 text-lg leading-relaxed mb-6">
-                I'm a dedicated full-stack developer with a passion for creating innovative web solutions. 
+                I&apos;m a dedicated full-stack developer with a passion for creating innovative web solutions. 
                 My journey in tech started with curiosity and has evolved into a career focused on building 
                 impactful applications that solve real-world problems.
               </p>
               <p className="text-gray-300 text-lg leading-relaxed">
-                When I'm not coding, you'll find me exploring new technologies, contributing to open-source 
+                When I&apos;m not coding, you&apos;ll find me exploring new technologies, contributing to open-source 
                 projects, or mentoring aspiring developers. I believe in continuous learning and staying 
                 ahead of the curve in this ever-evolving tech landscape.
               </p>
@@ -107,7 +107,7 @@ const About = () => {
             <div className="pt-6">
               <button className="px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
                 <Coffee className="w-5 h-5 inline-block mr-2" />
-                Let's Connect
+                Let&apos;s Connect
               </button>
             </div>
           </div>
