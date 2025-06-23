@@ -45,10 +45,9 @@ const Hero = () => {
         <div className="absolute bottom-20 left-10 w-80 h-80 bg-gradient-to-r from-violet-600/5 to-indigo-600/5 rounded-full blur-3xl animate-pulse-slow animation-delay-2000"></div>
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-to-r from-purple-500/3 via-cyan-500/3 to-violet-500/3 rounded-full blur-3xl animate-pulse-slow animation-delay-1000"></div>
         
-        {/* Subtle Grid Pattern */}// ...existing code...
-<div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width=&quot;60&quot; height=&quot;60&quot; viewBox=&quot;0 0 60 60&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;%3E%3Cg fill=&quot;none&quot; fill-rule=&quot;evenodd&quot;%3E%3Cg fill=&quot;%23ffffff&quot; fill-opacity=&quot;0.02&quot;%3E%3Cpath d=&quot;M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z&quot;/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] opacity-10"></div>
-// ...existing code...
-     </div>
+        {/* Subtle Grid Pattern */}
+        <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width=&quot;60&quot; height=&quot;60&quot; viewBox=&quot;0 0 60 60&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;%3E%3Cg fill=&quot;none&quot; fill-rule=&quot;evenodd&quot;%3E%3Cg fill=&quot;%23ffffff&quot; fill-opacity=&quot;0.02&quot;%3E%3Cpath d=&quot;M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z&quot;/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] opacity-10"></div>
+      </div>
 
       {/* Main Content */}
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -121,7 +120,7 @@ const Hero = () => {
               <div className="py-6 animate-fade-in-up animation-delay-2500">
                 <p className="text-gray-300 italic text-lg opacity-90">
                   <span className="bg-gradient-to-r from-purple-400 to-cyan-400 bg-clip-text text-transparent">
-                    "Crafting digital experiences with passion and precision ✨"
+                    {'"Crafting digital experiences with passion and precision ✨"'}
                   </span>
                 </p>
               </div>
@@ -205,7 +204,7 @@ const Hero = () => {
           <div className="mb-8">
             <p className="text-gray-300 italic text-sm md:text-base opacity-80">
               <span className="bg-gradient-to-r from-purple-400 to-cyan-400 bg-clip-text text-transparent">
-                "Crafting digital experiences with passion and precision ✨"
+                {'"Crafting digital experiences with passion and precision ✨"'}
               </span>
             </p>
           </div>
@@ -221,7 +220,7 @@ const Hero = () => {
             <button className="px-8 py-4 border border-white/20 text-white rounded-lg font-semibold hover:bg-white/5 hover:border-white/40 transition-all duration-300 backdrop-blur-sm">
               Download CV
             </button>
-          </div>
+            </div>
 
           {/* Social Links */}
           <div className="flex justify-center gap-4 mb-12">

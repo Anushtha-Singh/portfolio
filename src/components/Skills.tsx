@@ -1,5 +1,5 @@
 import React from 'react';
-import { Code2, Database, Palette, Server, Smartphone, Globe } from 'lucide-react';
+import { Code2, Database, Server, Smartphone, Globe } from 'lucide-react';
 
 interface Skill {
   name: string;
