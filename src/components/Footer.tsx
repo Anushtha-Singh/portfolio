@@ -47,7 +47,7 @@ const Footer = () => {
     {
       icon: <Linkedin className="w-5 h-5" />,
       label: "LinkedIn",
-      href: "https://www.linkedin.com/in/anushtha-singh-kushwah/overlay",
+      href: "https://www.linkedin.com/in/anushtha-singh-kushwah",
       color: "hover:text-blue-400"
     },
     {
@@ -92,7 +92,7 @@ const Footer = () => {
             <div className="lg:col-span-2">
               <div className="mb-6">
                 <h3 className="text-3xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent mb-4">
-                  Your Name
+                  Anushtha Singh Kushwah
                 </h3>
                 <p className="text-gray-300 leading-relaxed max-w-md">
                   Passionate full-stack developer crafting digital experiences with modern technologies. 
@@ -177,7 +177,7 @@ const Footer = () => {
                 <div className="flex">
                   <input
                     type="email"
-                    placeholder="your@email.com"
+                    placeholder="anushthasinghk@gmail.com"
                     className="flex-1 px-4 py-2 bg-white/5 border border-white/10 rounded-l-lg text-white placeholder-gray-400 focus:outline-none focus:border-blue-400 transition-colors duration-300"
                   />
                   <button className="px-4 py-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-r-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-300 hover:scale-105">
@@ -196,7 +196,7 @@ const Footer = () => {
               
               {/* Copyright */}
               <div className="flex items-center space-x-2 text-gray-400">
-                <span>© 2024 Your Name. Made with</span>
+                <span>© 2024 Anushtha Singh Kushwah. Made with</span>
                 <Heart className="w-4 h-4 text-red-400 animate-pulse" />
                 <span>and lots of</span>
                 <Coffee className="w-4 h-4 text-orange-400" />

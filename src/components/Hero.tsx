@@ -67,7 +67,7 @@ const Hero = () => {
               {/* Profile Picture with enhanced styling */}
               <div className="relative w-80 h-80 rounded-full overflow-hidden border-4 border-white/10 shadow-2xl shadow-purple-500/10 transform hover:scale-105 transition-all duration-500 hover:shadow-purple-500/20">
                 <img 
-                  src="/api/placeholder/320/320" 
+                  src="/profile-pic-1.jpg" 
                   alt="Anushtha Singh Kushwah" 
                   className="w-full h-full object-cover"
                 />
@@ -139,13 +139,13 @@ const Hero = () => {
 
               {/* Social Links */}
               <div className="flex gap-4 animate-fade-in-up animation-delay-3500">
-                <a href="#" className="p-3 bg-white/5 hover:bg-white/10 rounded-full transition-all duration-300 hover:scale-110 border border-white/10 hover:border-purple-400/30">
+                <a href="https://github.com/Anushtha-Singh" className="p-3 bg-white/5 hover:bg-white/10 rounded-full transition-all duration-300 hover:scale-110 border border-white/10 hover:border-purple-400/30">
                   <Github className="w-5 h-5 text-gray-300 hover:text-purple-400 transition-colors" />
                 </a>
-                <a href="#" className="p-3 bg-white/5 hover:bg-white/10 rounded-full transition-all duration-300 hover:scale-110 border border-white/10 hover:border-cyan-400/30">
+                <a href="https://www.linkedin.com/in/anushtha-singh-Kushwah" className="p-3 bg-white/5 hover:bg-white/10 rounded-full transition-all duration-300 hover:scale-110 border border-white/10 hover:border-cyan-400/30">
                   <Linkedin className="w-5 h-5 text-gray-300 hover:text-cyan-400 transition-colors" />
                 </a>
-                <a href="#" className="p-3 bg-white/5 hover:bg-white/10 rounded-full transition-all duration-300 hover:scale-110 border border-white/10 hover:border-violet-400/30">
+                <a href="mailto:anushthasinghk@gmail.com" className="p-3 bg-white/5 hover:bg-white/10 rounded-full transition-all duration-300 hover:scale-110 border border-white/10 hover:border-violet-400/30">
                   <Mail className="w-5 h-5 text-gray-300 hover:text-violet-400 transition-colors" />
                 </a>
               </div>
@@ -164,7 +164,7 @@ const Hero = () => {
               
               <div className="relative w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-white/10 shadow-2xl shadow-purple-500/10 transform hover:scale-105 transition-transform duration-300">
                 <img 
-                  src="/api/placeholder/224/224" 
+                  src="/profile-pic-1.jpg" 
                   alt="Anushtha Singh Kushwah" 
                   className="w-full h-full object-cover"
                 />
@@ -224,13 +224,13 @@ const Hero = () => {
 
           {/* Social Links */}
           <div className="flex justify-center gap-4 mb-12">
-            <a href="#" className="p-3 bg-white/5 hover:bg-white/10 rounded-full transition-all duration-300 hover:scale-110 border border-white/10 hover:border-purple-400/30">
+            <a href="https://github.com/Anushtha-Singh" className="p-3 bg-white/5 hover:bg-white/10 rounded-full transition-all duration-300 hover:scale-110 border border-white/10 hover:border-purple-400/30">
               <Github className="w-5 h-5 text-gray-300 hover:text-purple-400 transition-colors" />
             </a>
-            <a href="#" className="p-3 bg-white/5 hover:bg-white/10 rounded-full transition-all duration-300 hover:scale-110 border border-white/10 hover:border-cyan-400/30">
+            <a href="https://www.linkedin.com/in/anushtha-singh-kushwah" className="p-3 bg-white/5 hover:bg-white/10 rounded-full transition-all duration-300 hover:scale-110 border border-white/10 hover:border-cyan-400/30">
               <Linkedin className="w-5 h-5 text-gray-300 hover:text-cyan-400 transition-colors" />
             </a>
-            <a href="#" className="p-3 bg-white/5 hover:bg-white/10 rounded-full transition-all duration-300 hover:scale-110 border border-white/10 hover:border-violet-400/30">
+            <a href="mailto:anushthasinghk@gmail.com" className="p-3 bg-white/5 hover:bg-white/10 rounded-full transition-all duration-300 hover:scale-110 border border-white/10 hover:border-violet-400/30">
               <Mail className="w-5 h-5 text-gray-300 hover:text-violet-400 transition-colors" />
             </a>
           </div>
